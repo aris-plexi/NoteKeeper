@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.PluralsightHelloWorld" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.PluralsightNoteKeeper" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -14,12 +14,12 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="Theme.PluralsightHelloWorld.NoActionBar">
+    <style name="Theme.PluralsightNoteKeeper.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.PluralsightHelloWorld.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.PluralsightNoteKeeper.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <style name="Theme.PluralsightHelloWorld.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.PluralsightNoteKeeper.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
