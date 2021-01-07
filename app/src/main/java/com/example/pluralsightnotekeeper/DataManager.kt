@@ -32,6 +32,10 @@ object DataManager {
         note = NoteInfo(courses["android_async"], "Service default threads",
         "Did you know that by default an Android Service will tie up the UI thread?")
         notes.add(note)
+
+        note = NoteInfo(courses["java_lang"], "The Java language",
+        "How to operate with Java language and write effectively")
+         notes.add(note)
     }
 
     private fun initializeCourses() {
