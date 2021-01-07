@@ -39,6 +39,8 @@ class NoteListActivity : AppCompatActivity() {
         val listNotes = findViewById<ListView>(R.id.listNotes)
         (listNotes.adapter as ArrayAdapter<NoteInfo>).notifyDataSetChanged()
     }
+
+
 }
 
 
